@@ -39,7 +39,7 @@ public class Allert {
      @Test
     public void alertGirisSayfasi() throws InterruptedException {
 
-
+        //Burada ellert buttonu kullanilmistir
          WebElement allertButton=driver.findElement(By.xpath("//button[@onclick='jsAlert()']"));
          allertButton.click();
          String  mesaj=driver.switchTo().alert().getText();
