@@ -21,6 +21,9 @@ public class Allert {
 //2. butona tıklayın, uyarıdaki Cancel butonuna tıklayın ve result mesajının görüntülendiğini doğrulayın.
 //3. butona tıklayın, uyarıdaki metin kutusuna isminizi yazin,
 // OK butonuna tıklayın ve result mesajının görüntülendiğini doğrulayın.
+    //Merhabalar arkadaslar bugun ilk githup dersimiz umaraim mutlu olursunuz
+    //dersde herekese basarilar
+    //.................
 
     WebDriver driver;
     @BeforeClass
