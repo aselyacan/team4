@@ -15,6 +15,8 @@ public class Deneme1Test {
 
        Driver.getDriver().get("https://www.google.com/");
       // Driver.getDriver().get(ConfigReader.getProperty("google_url"));
+        //Resit bey den degisiklikler!
+
 
         deneme1Page.gmailLink.click();
 
