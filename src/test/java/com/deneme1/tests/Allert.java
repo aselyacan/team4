@@ -49,6 +49,7 @@ public class Allert {
          WebElement resultMesaji=driver.findElement(By.id("result"));
          Assert.assertTrue(resultMesaji.isDisplayed());
          Thread.sleep(3000);
+        System.out.println(mesaj);
 
          WebElement dismisButton=driver.findElement(By.xpath("//button[@onclick='jsConfirm()']"));
          dismisButton.click();
@@ -79,6 +80,7 @@ public class Allert {
 
          for (WebElement basliklar:sagtManSo){
              System.out.println(basliklar.getText());
+             System.out.println(mesaj);
          }
 
 
